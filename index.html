@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- Кодировка UTF-8 позволяет нормально распознавать кириллицу !-->
+    <title>Stolovka.MSU.ru</title>
+
+
+    <link rel="icon" type="images/png" sizes="16x16" href="img/icon.png"> <!-- Картинка в титуле !-->
+
+    <!-- STYLES !-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">  <!-- Подкючение библиотеки Bootstrap !-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/comand.css">
+    <link rel="stylesheet" href="css/reg_form.css">
+
+
+    <!-- SCRIPTS !-->
+    <script type="text/javascript" src="js/navbar.js"></script>
+</head>
+<body>
+  <header>
+      <div class="heading">
+        <h1>Столовая</h1> <br>
+        <h2>Университетской гимназии</h2>
+
+        <p>Обзор на меню нашей столовой</p>
+      </div>
+
+      <div id="navbar">
+        <a href="#">Главная</a>
+        <a href="menu.html">Меню столовой</a>
+        <a href="bufet.html">Буфет</a>
+      </div> 
+  </header>
+
+  <main>
+      <div class="content">
+        <div class="info">
+          <h1 id="header_main">О столовой</h1>
+            <img src="img/logo.png">
+
+            <p>
+              Наша школа создаёт комфортные условия для жизни гимназиста. Неотъемлемая часть, которой является питание. В столовой мы получаем запас энергии на день, она предоставляет нам выбор блюд, чтобы мы всегда были сытыми и довольными.<br> Для комфортного нахождения и взрослых в стенах учебного заведения есть буфет, в котором можно найти выбор горячих блюд, а так же ассортимент снеков и напитков. Там же вы можете найти вкусные тортики и сладости, что бы взбодриться. Подробнее со всем вы можете ознакомиться перейдя по интересующим вас вкладкам.
+            </p>
+        </div>
+
+        <div class="comand">
+          <h1 id="header_main">Вот они слева направо...</h1>
+
+          <div class="card">
+            <img src="img/persons/polina.jpg" alt="Полина" style="width:100%">
+            <h1>Полина Мочалова</h1>
+            <p class="title">Дизайнер</p>
+            <div style="margin: 24px 0;">
+              <a href="#"><i class="fa fa-vk"></i></a> 
+              <a href="#"><i class="fa fa-twitter"></i></a>  
+              <a href="#"><i class="fa fa-telegram"></i></a>  
+              <a href="#"><i class="fa fa-facebook"></i></a> 
+           </div>
+           <p><button>Связаться</button></p>
+          </div>
+
+          <div class="card">
+            <img src="img/persons/katya.jpg" alt="Полина" style="width:100%">
+            <h1>Екатерина Бардасова</h1>
+            <p class="title">Верстальщик</p>
+            <div style="margin: 24px 0;">
+              <a href="#"><i class="fa fa-vk"></i></a> 
+              <a href="#"><i class="fa fa-twitter"></i></a>  
+              <a href="#"><i class="fa fa-telegram"></i></a>  
+              <a href="#"><i class="fa fa-facebook"></i></a> 
+           </div>
+           <p><button>Связаться</button></p>
+          </div>
+
+          <div class="card">
+            <img src="img/persons/sonya t.jpg" alt="Полина" style="width:100%">
+            <h1>Софья Трофимова</h1>
+            <p class="title">Верстальщик</p>
+            <div style="margin: 24px 0;">
+              <a href="#"><i class="fa fa-vk"></i></a> 
+              <a href="#"><i class="fa fa-twitter"></i></a>  
+              <a href="#"><i class="fa fa-telegram"></i></a>  
+              <a href="#"><i class="fa fa-facebook"></i></a> 
+           </div>
+           <p><button>Связаться</button></p>
+          </div>
+
+          <div class="card">
+            <img src="img/persons/sonya k.jpg" alt="Полина" style="width:100%">
+            <h1>Софья Кустарева</h1>
+            <p class="title">Информатор</p>
+            <div style="margin: 24px 0;">
+              <a href="#"><i class="fa fa-vk"></i></a> 
+              <a href="#"><i class="fa fa-twitter"></i></a>  
+              <a href="#"><i class="fa fa-telegram"></i></a>  
+              <a href="#"><i class="fa fa-facebook"></i></a> 
+           </div>
+           <p><button>Связаться</button></p>
+          </div>
+        </div>
+
+        <h1 id="header_main">Зарегистрируйтесь</h1>
+        <div class="reg_form">
+          <form>
+            <div class="container">
+              <h1>Login</h1>
+
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <button type="submit" class="btn">Login</button>
+            </div>
+          </form>
+        </div>
+  </main>
+</body>
+</html>
+
+
